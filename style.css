@@ -24,6 +24,8 @@ h3, p{
 
 .menu-nome{
   color: #FFFFFF;
+  left: 95px;
+  top: 35px;
   
 }
 
@@ -45,6 +47,8 @@ h3, p{
 
     width: 145px;
     height: 145px;
+    
+    display: block;
     position: relative;
     bottom: 60px;
     
@@ -54,19 +58,17 @@ h3, p{
 
 /* CONFIG DO MENU DE 3 PONTINHO*************************************************************/
 
-
 .barras_do_menu {
   width: 40px;
   height: 20px;
   position: relative;
   cursor: pointer;
-  position: relative;
   left: 30px;
-  top: 55px;
+  top: 45px;
 
 }
-
-.barras_do_menu span {
+/* fazendo as confgs das coisas que tem no MENU*/
+.nav-button{
   display: block;
   position: block;
 
@@ -74,10 +76,71 @@ h3, p{
   height: -1px;
   width: 110%;
   background: #fff;
- 
-
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
 
 }
+
+.nav-button i{
+  color: #2C2C2C;
+}
+
+.overlay{
+  width: 0%;
+  height: 100% ;
+  background-color: #FFE184 ;
+  z-index: 9; /* serve para deixar o menu sobre qualquer coisa do site*/
+  position: fixed;
+  left: 0;
+  top: o;
+  overflow-x: hidden;
+  transition: all 0,5s;
+}
+
+.overlay-content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a{
+  padding: 8px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  font-size: 34px;
+  transition: 0.3s;
+
+}
+
+.overlay a:hover,
+.overlay a:focus{
+  color: rgb(240,87,66);
+
+}
+
+.overlay .closebtn{
+  position: absolute;
+  top: 25px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height : 450px) {
+  .overlay a {font-size: 20px;}
+  .overlay, .closebtn{
+    font-size: 40px;
+    top: 15px;
+    right:35px;
+  }
+  
+}
+
+/* Fim das confgs*/
 
 .line1 {
   margin: 5px;
@@ -182,9 +245,6 @@ h3, p{
   overflow-x: scroll;
 }
 
-.contem-nrapidas-wrapper::-webkit-scrollbar { 
-	display: ;
-} 
 
 .slidebar, .bred {
 
