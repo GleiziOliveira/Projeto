@@ -10,7 +10,6 @@ body{
   margin: 0;
   height: 100vh;
 
-
 }
 
 
@@ -466,3 +465,102 @@ margin-top: 16px;
 }
 
 /************************* FIM DO FOOTER *************************/
+
+
+/* Conversou de Moedas*/
+
+.container-conversor{
+  width: 60%;
+  margin-left: 80px ;
+  display: flex;
+  font-size: 20px;
+}
+
+
+.page-title {
+  color: rgb(12,69,137);
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.page-subtitle {
+  color:black;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+
+
+input {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color:rgb(12,69,137);
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.conv {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #FFE184;
+  font-size: 20px;
+  color: rgb(240,87,66);
+  border-style:none;
+}
+
+h2 {
+  margin-top: 20px;
+  color:rgb(12,69,137);
+  font-size: 30px;
+}
+
+
+/*         Página de noticias                     */
+
+.noticias-ibovespa{
+  margin-left: 10px;
+}
+
+.ibovesp{
+  display: flex;
+  justify-items: center;
+  width: 600px;
+  padding: 10px;
+
+}
+
+.texto-noticia-page{
+  position: absolute;
+width: 340px;
+height: 130px;
+left: 10px;
+top: 357px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 10px;
+
+color: rgba(0, 0, 0, 0.85);
+
+}
+
+.voltar, 
+.saiba-mais{
+  margin-top: 12px;
+  padding: 4px 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #FFE184;
+  font-size: 20px;
+  color: rgb(240,87,66);
+  border-style:none;
+  margin-bottom: 10px;
+}
