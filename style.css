@@ -230,6 +230,10 @@ h3, p{
 
 /* COMEÇO DAS CONFIGURAÇÕES DA SLIDE BAR*/
 
+
+
+
+ 
 .contem-nrapidas{
 
   display: flex;
@@ -267,6 +271,12 @@ h3, p{
     color: rgb(240,87,66);
     font-size: 17px;
   
+}
+
+
+/* Mostre apenas o slide ativo */
+.slidebar.ativo {
+  display: block;
 }
 
 
@@ -568,5 +578,50 @@ h2 {
   color: rgb(240,87,66);
   margin-bottom: 15px;
   cursor: pointer;
+  text-decoration: none;
+}
+
+/* PARTE DE ECONOMIA*/
+
+.list-noticias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-gap: 20px;
+  width: 100%;
+  margin: 10px;
+}
+
+.economia1,
+.economia2,
+.economia3,
+.economia4,
+.economia5,
+.economia6,
+.economia7,
+.economia8,
+.economia9,
+.economia10 {
+  display: flex;
+  align-items: center;
+}
+
+.economia-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.text-eco {
+  margin-left: 10px;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+.text-eco{
+  font-size: 18px;
+}
+
+a{
   text-decoration: none;
 }
