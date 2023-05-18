@@ -8,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <script src="./script.js"></script>
+  <script src="noticias.js"></script>
  
   <title>Noticias</title>
 </head>
@@ -20,11 +22,12 @@
 
                             <div class="search-box">
 
-                              <input type="text" class="search-txt" placeholder="Busca">
+                              <input  type="text" class="search-txt" placeholder="Busca">
                               <a href="#" class="search-btn">
-                                <img src="./assets/search.svg" alt="LUPA" height="20" width="20">
+                                <button class="search" type="submit"><img src="./assets/search.svg" alt="LUPA" height="20" width="20"></button>
                               </a>
-
+                        
+                                 
                             </div>
                             
 
@@ -69,12 +72,13 @@
   </header>
   <br>
 
+<marquee onmouseout="this.start()" onmouseover="this.stop()" behavior=""> 
   <div class="contem-nrapidas-wrapper">
     <div class="contem-nrapidas">
       <div class="slidebar">
         <img class="bred" src="./assets/barcelona.png" alt="Imagem de Barcelona"> 
           <h3 class="titulo-slidebar">Evento em Barcelona</h3>
-           <p class="texto-slidebar">Crachá “espião” distribuído pela Huawei em evento em Barcelona gera polêmica
+           <p class="texto-slidebar">Crachá “espião”,<br> distribuído pela Huawei em evento em Barcelona gera polêmica
             </p>
       </div> 
   
@@ -113,9 +117,12 @@
         <img class="bred" src="./assets/lulatriplice.png" alt="Imagem de Barcelona"> 
           <h3 class="titulo-slidebar">Lista Tríplice</h3>
            <p class="texto-slidebar">Associação Nacional dos Procuradores da República rebate fala de Lula sobre lista tríplice</p>
-      </div> 
+         
+       </div> 
     </div>
   </div>
+</marquee>
+
   
   
   
