@@ -1,7 +1,7 @@
 # Projeto 
 
 <p align="center">
-Projeto desenvolvido em Colaboração do curso de Ciência da Computação da FAM. <br/>
+Projeto desenvolvido em Colaboração do curso de Ciência da Computação da FAM <br/>
 </p>
 
 <p align="center">
