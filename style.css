@@ -294,6 +294,7 @@ h3, p{
 
     
     font-size: 9px; 
+    margin-right: 50px;
     
   
 
@@ -303,7 +304,8 @@ h3, p{
 
     
     color: rgb(240,87,66);
-    font-size: 15px;
+    margin-right: 50px;
+    font-size: 12px;
   
 }
 
@@ -397,6 +399,7 @@ h3, p{
 .titulo-noticia-2{
 
    font-size: 37px;
+   margin-top: 20px;
     color: rgb(12,69,137);
 
 }
@@ -411,7 +414,9 @@ margin-top: 16px;
 .imagem-noticia-2 {
 
 
-  width: 99%;
+  position: relative;
+  top: 18px;
+  width: 90%;
 
 }
 
@@ -433,13 +438,11 @@ margin-top: 16px;
 
 
   position: relative;
-  font-size: 17px;
-  height: 60px;
+  bottom: -10px;
   background: rgb(240,87,66);
-  border: 1px solid red;
   flex-direction: column;
   display: flex;
-  min-height: 150px;
+  min-height: 75px;
   width: 99,5%;
   
 
@@ -487,7 +490,7 @@ margin-top: 16px;
 
   position: absolute;
   right: 30px;
-  top: 100px;
+  top: 20px;
   margin-top: 9px;
 
 
@@ -514,7 +517,7 @@ margin-top: 16px;
     color: rgb(255,225,132);
     position: absolute;
     left: 30px;
-    top: 100px;
+    top: 20px;
     margin-top: 21px;
     
     
@@ -570,6 +573,31 @@ margin-top: 16px;
 
       top: 25px;
       left: 160px;
+  }
+
+  .social-links {
+
+    position: relative;
+    
+   
+    
+  
+  }
+
+  .rodape-container{
+
+
+    position: relative;
+    font-size: 17px;
+    height: 80px;
+    background: rgb(240,87,66);
+    flex-direction: column;
+    display: flex;
+    min-height: 240px;
+    width: 99,5%;
+    
+  
+  
   }
 
 }
