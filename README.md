@@ -5,7 +5,7 @@ Projeto desenvolvido em Colaboração do curso de Ciência da Computação da FA
 </p>
 
 <p align="center">
-  <img alt="License" src="https://i.ibb.co/cbBhLCN/imagem-2023-05-18-173548271.png">
+  <img alt="License" src="https://i.ibb.co/x2stTZk/Whats-App-Image-2023-05-24-at-15-26-15.jpg">
 </p>
 
 Você pode visualizar o projeto através [DESSE LINK](https://gleizioliveira.github.io/Projeto/). 
