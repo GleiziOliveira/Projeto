@@ -70,8 +70,8 @@ h3, p{
 
 #logo-bm {
   position: absolute;
-  width: 176px;
-  height: 97px;
+  width: 300px;
+  height: 159px;
   left: 500px;
   top: 23px;
 }
@@ -132,7 +132,7 @@ h3, p{
 .overlay a{
   padding: 8px;
   text-decoration: none;
-  color: var(--color-buttom-bg);
+  color: var(--color-black);
   display: block;
   font-size: 34px;
   transition: 0.3s;
@@ -653,11 +653,12 @@ margin-top: 16px;
 
 
 input {
-  margin-top: 15px;
+  margin-top: 15px; 
   margin-bottom: 15px;
   padding: 6px;
   border-radius: 5px;
-}
+  width: 200px; /* Defina o valor desejado para o tamanho do input */
+  }
 
 label {
   color:var(--color-titulo-not);
